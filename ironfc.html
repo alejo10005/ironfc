@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Iron FC</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="logo.png">
+</head>
+<body>
+    <!--MENU-->
+    <div class="contenedor-header">
+        <header>
+            <h1>IRON <span>FC</span></h1>
+            <nav id="nav">
+                <a href="#inicio" onclick="seleccionar()">inicio</a>
+                <a href="#nosotros" onclick="seleccionar()">Nosotros</a>
+                <a href="#servicios" onclick="seleccionar()">Servicios</a>
+                <a href="#galeria" onclick="seleccionar()">Galería</a>
+                <a href="#equipo" onclick="seleccionar()">Equipo</a>
+                <a href="#contacto" onclick="seleccionar()">Contacto</a>
+                <a href=
+            </nav>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                
+                <a href="https://www.instagram.com/ironfcecu/"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <!-- Icono del menu responsive -->
+            <div id="icono-nav" class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!--SECCION INICIO-->
+    <section id="inicio" class="inicio">
+        <div class="contenido-seccion">
+            <div class="info">
+                <h2>HAZ QUE <span>OCURRA</span></h2>
+                <p>Triunfar es mas facil de lo que piensas!</p>
+                <a href="#nosotros">
+                    <i class="fa-solid fa-circle-chevron-down"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- SECCION NOSOTROS -->
+    <section id="nosotros" class="nosotros">
+        <div class="fila">
+            <div class="col">
+                <img src="img/nosotros.png" alt="">
+            </div>
+            <div class="col">
+                <div class="contenedor-titulo">
+                    <div class="numero">
+                        01
+                    </div>
+                    <div class="info">
+                        
+                        <h2>NOSOTROS</h2>
+                    </div>
+                </div>
+                <p class="p-especial"></p>
+                <p>Conquista tus objetivos de una manera segura, consistente y en corto tiempo, a través de los planes de asesoramiento deportivo guiados con nuestros preparadores ☝️
+
+                    Profesionales con larga trayectoria en diferentes ámbitos del entrenamiento deportivo integral </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SERVICIOS -->
+    <section class="servicios" id="servicios">
+        <div class="contenido-seccion">
+            <div class="fila">
+                <div class="col">
+                    <div class="contenedor-titulo">
+                        <div class="numero">
+                            02
+                        </div>
+                        <div class="info">
+                            
+                            <h2>SERVICIOS</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="img/servicios.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="info-servicios">
+            <table>
+                <tr>
+                    <td>
+                        <i class="fa-solid fa-dumbbell"></i>
+                        <h3><span class="txtRojo">Maquinaria</h3>
+                            <img src="img/m1.jpg" alt="">
+                        <p>Estamos comprometidos a brindar un servicio y soporte al cliente excepcional, asegurándonos de que tenga una experiencia única con nuestro producto.</p>
+                        <a href="https://www.instagram.com/ironmaqecu/"><i class="fa-brands fa-instagram"></i></a>
+                    </td>
+            </table>
+        </div>
+    </section>
+
+    <!-- SECCION GALERIA -->
+    <section class="galeria" id="galeria">
+        <div class="contenido-seccion">
+            <div class="contenedor-titulo">
+                <div class="numero">
+                    03
+                </div>
+                <div class="info">
+                    
+                    <h2>GALERIA</h2>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <img src="img/f1.jpg" alt="">
+                </div>
+                <div class="col">
+                    <img src="img/f2.jpg" alt="">
+                </div>
+                <div class="col">
+                    <img src="img/f3.jpg" alt="">
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <img src="img/f4.jpg" alt="">
+                </div>
+                <div class="col">
+                    <img src="img/f5.jpg" alt="">
+                </div>
+                <div class="col">
+                    <img src="img/f6.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- SECCION EQUIPO -->
+    <section class="equipo" id="equipo">
+        <div class="contenido-seccion">
+            <div class="contenedor-titulo">
+                <div class="numero">
+                    04
+                </div>
+                <div class="info">
+                    
+                    <h2>EQUIPO</h2>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <img src="img/e1.png" alt="">
+                    <div class="info">
+                        <h2>PATO</h2>
+                        <a href="#">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a href="https://www.instagram.com/pasquelpato/">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="img/e2.png" alt="">
+                    <div class="info">
+                        <h2>PAUL</h2>
+                        <a href="#">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a href="https://www.instagram.com/paulsito20/">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section class="contacto" id="contacto">
+        <div class="contenido-seccion">
+            <div class="contenedor-titulo">
+                <div class="numero">
+                    05
+                </div>
+                <div class="info">
+                    
+                    <h2>CONTACTO</h2>
+                </div>
+            </div>
+            <div class="fila-datos">
+                <div class="col">
+                    <i class="fa-solid fa-location-dot"></i>
+                    Sucre y Rafael Larrea Andrade (esquina)
+                </div>
+                <div class="col">
+                    <i class="fa-solid fa-phone"></i>
+                    09987456201<br>
+                      09874563210
+                </div>
+                <div class="col">
+                    <i class="fa-regular fa-clock"></i>
+                    Lunes a Viernes 7:00h - 22:00h<br>
+                    Sabado 7:00h - 13:00h
+                    
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <div class="info">
+            <p>2024 - <span class="txtRojo">IRON FC</span> Todos los derechos reservados</p>
+            <div class="redes">
+                <a href="#">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="https://www.instagram.com/ironfcecu/">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
